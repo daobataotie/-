@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestionList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Questions>
+    <Question Id="1" Type="文本">
+      <SpecificQuestion>姓名。</SpecificQuestion>
+      <Answers />
+    </Question>
+    <Question Id="2" Type="判斷">
+      <SpecificQuestion>是否同意。</SpecificQuestion>
+      <Answers>
+        <Answer>同意</Answer>
+      </Answers>
+    </Question>
+    <Question Id="3" Type="單選">
+      <SpecificQuestion>年齡區間。</SpecificQuestion>
+      <Answers>
+        <Answer>0~20</Answer>
+        <Answer>21~40</Answer>
+        <Answer>41~60</Answer>
+        <Answer>61~80</Answer>
+        <Answer>81以上</Answer>
+      </Answers>
+    </Question>
+    <Question Id="4" Type="多選">
+      <SpecificQuestion>愛好(多選)。</SpecificQuestion>
+      <Answers>
+        <Answer>讀書</Answer>
+        <Answer>運動</Answer>
+        <Answer>音樂</Answer>
+        <Answer>旅遊</Answer>
+        <Answer>美食</Answer>
+      </Answers>
+    </Question>
+    <Question Id="5" Type="單選">
+      <SpecificQuestion>所在地區</SpecificQuestion>
+      <Answers>
+        <Answer>A，亞洲</Answer>
+        <Answer>B，歐洲</Answer>
+        <Answer>C，北美洲</Answer>
+        <Answer>D，南美洲</Answer>
+        <Answer>E，非洲</Answer>
+        <Answer>F，大洋洲</Answer>
+        <Answer>G，南極洲</Answer>
+      </Answers>
+    </Question>
+  </Questions>
+  <ReceivingMail>844309084@qq.com</ReceivingMail>
+</QuestionList>
