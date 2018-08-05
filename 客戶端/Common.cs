@@ -13,6 +13,8 @@ namespace Common
 {
     public class Common
     {
+        public static readonly string Mail = "";
+
         public static void SerializeToXml(string filePath, object ob, string root = null)
         {
             using (StreamWriter writer = new StreamWriter(filePath))

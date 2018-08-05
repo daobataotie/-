@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -140,6 +141,6 @@ namespace Common
 
         private List<Question> questions = new List<Question>();
 
-        private string receivingMail = "844309084@qq.com";
+        private string receivingMail;
     }
 }

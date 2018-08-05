@@ -42,6 +42,7 @@ namespace 客戶端
             //    rw.Close();
             //}
             //var vv=Properties.Resources.ResourceManager.GetObject("Questions");
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -56,7 +57,7 @@ namespace 客戶端
 
             string fileName = AppDomain.CurrentDomain.BaseDirectory + "Questions.xml";
             q = Common.Common.DeserializeToClass<QuestionList>(fileName);
-
+            
             if (q == null || q.Questions == null || q.Questions.Count == 0)
                 return;
 
